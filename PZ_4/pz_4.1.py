@@ -20,11 +20,8 @@ while type(n) != int:
 n-=1
 h=a
 while n > 0:
-
-    
     a= h * a
-
     n -= 1
 print("ответом будет:")
 print(a)
-print("Я СДЕЛАЛ ЭТО САМ!")
+
