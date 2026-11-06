@@ -11,5 +11,40 @@ while type(n) != int:
         print("НЕПРАВЕЛЬНО ВВЕЛИ!")
         n = input("Введите число ещё раз:")
 
-a= n /22
-print(a)
+# f=10
+# v=1
+
+# flag = True
+
+while n > 0:
+    ost = n % 10
+    if ost % 2:
+        print(True)
+        # flag = False
+        break
+    else:
+        n %= 10
+
+    n -= 1
+#
+# if flag:
+#     print(False)
+
+if n < 0:
+    print(False)
+elif n>0:
+    print("ss")
+    print(n)
+
+# b = n%f
+    # c= b//v
+    # v=v*10
+    # f=f*10
+    # if (((c/2)*10)%10) != 0:
+    #     print("True")
+    #     break
+    # if c == 0:
+    #     break
+#
+# if (((c/2)*10)%10) ==0:
+#     print("false")
